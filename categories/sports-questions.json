@@ -1,0 +1,54 @@
+{
+    "sportsQuestions" : [
+        {
+          "question": "Which country won the FIFA World Cup in 2018?",
+          "options": ["Brazil", "Germany", "Argentina", "France"],
+          "correct_answer": "France"
+        },
+        {
+          "question": "Who is the all-time top scorer in the history of the FIFA World Cup?",
+          "options": ["Lionel Messi", "Cristiano Ronaldo", "Pele", "Miroslav Klose"],
+          "correct_answer": "Miroslav Klose"
+        },
+        {
+          "question": "Which club has won the UEFA Champions League (formerly European Cup) the most times?",
+          "options": ["Real Madrid", "Barcelona", "Bayern Munich", "AC Milan"],
+          "correct_answer": "Real Madrid"
+        },
+        {
+          "question": "In soccer, what is the term for a player scoring three goals in a single match?",
+          "options": ["Hat-trick", "Goalie", "Free Kick", "Offside"],
+          "correct_answer": "Hat-trick"
+        },
+        {
+          "question": "Which player is often referred to as the 'Egyptian King'?",
+          "options": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Mohamed Salah"],
+          "correct_answer": "Mohamed Salah"
+        },
+        {
+          "question": "What is the regulation size of a soccer goal?",
+          "options": ["6 feet by 12 feet", "7 feet by 14 feet", "8 feet by 16 feet", "9 feet by 18 feet"],
+          "correct_answer": "8 feet by 16 feet"
+        },
+        {
+          "question": "Which country hosted the 2014 FIFA World Cup?",
+          "options": ["Germany", "Brazil", "Russia", "South Africa"],
+          "correct_answer": "Brazil"
+        },
+        {
+          "question": "Which legendary English soccer player is known for his 'Beckham Bend' free kicks?",
+          "options": ["Frank Lampard", "Steven Gerrard", "David Beckham", "Wayne Rooney"],
+          "correct_answer": "David Beckham"
+        },
+        {
+          "question": "What is the most-watched sporting event in the world?",
+          "options": ["Super Bowl", "Olympics", "UEFA Champions League Final", "FIFA World Cup Final"],
+          "correct_answer": "FIFA World Cup Final"
+        },
+        {
+          "question": "Which soccer player holds the record for the most goals scored in a calendar year?",
+          "options": ["Lionel Messi", "Cristiano Ronaldo", "Pele", "Diego Maradona"],
+          "correct_answer": "Lionel Messi"
+        }
+      ]
+}

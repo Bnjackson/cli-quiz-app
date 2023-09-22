@@ -1,0 +1,54 @@
+{
+    "musicQuestions" : [
+        {
+          "question": "What is the term for the written symbols used to represent music notes?",
+          "options": ["Melody", "Harmony", "Notation", "Rhythm"],
+          "correct_answer": "Notation"
+        },
+        {
+          "question": "Which instrument is known as the 'King of Instruments'?",
+          "options": ["Piano", "Violin", "Trumpet", "Organ"],
+          "correct_answer": "Organ"
+        },
+        {
+          "question": "Who is often referred to as the 'Queen of Pop'?",
+          "options": ["Madonna", "Beyoncé", "Lady Gaga", "Whitney Houston"],
+          "correct_answer": "Madonna"
+        },
+        {
+          "question": "Which famous composer is known for his 'Moonlight Sonata'?",
+          "options": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Franz Schubert"],
+          "correct_answer": "Ludwig van Beethoven"
+        },
+        {
+          "question": "Which genre of music is characterized by its roots in Jamaica and prominent use of offbeat rhythms?",
+          "options": ["Rock", "Jazz", "Reggae", "Blues"],
+          "correct_answer": "Reggae"
+        },
+        {
+          "question": "What is the smallest member of the violin family?",
+          "options": ["Cello", "Viola", "Double Bass", "Violin"],
+          "correct_answer": "Violin"
+        },
+        {
+          "question": "Who was known as the 'King of Rock and Roll'?",
+          "options": ["Elvis Presley", "Chuck Berry", "Buddy Holly", "Jerry Lee Lewis"],
+          "correct_answer": "Elvis Presley"
+        },
+        {
+          "question": "Which Beatles album is often considered one of the greatest rock albums of all time?",
+          "options": ["Please Please Me", "Rubber Soul", "Abbey Road", "Sgt. Pepper's Lonely Hearts Club Band"],
+          "correct_answer": "Sgt. Pepper's Lonely Hearts Club Band"
+        },
+        {
+          "question": "What is the name of the woodwind instrument that is played by blowing air through a reed?",
+          "options": ["Flute", "Clarinet", "Saxophone", "Trumpet"],
+          "correct_answer": "Clarinet"
+        },
+        {
+          "question": "Which famous composer is known for 'The Four Seasons'?",
+          "options": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Antonio Vivaldi", "Johann Strauss II"],
+          "correct_answer": "Antonio Vivaldi"
+        }
+      ]
+}
