@@ -1,25 +1,45 @@
 const readlineSync = require('readline-sync');
 
-function getUserAnswer(message, choices, type) {
-    let userAnswer;
-    //Some questions will be answered as strings while others numbers. Numbers need to be converted, and strings need to be set to lowercase
-    if (type === 'string') {
-        userAnswer = readlineSync.question(`${message}`).toLowerCase();
-    } else if (type === 'number') {
-        userAnswer = Number(readlineSync.question(`${message}`));
-    }
-    return checkUserAnswer(userAnswer, choices) ? userAnswer : getUserAnswer(message, choices, type);
+function getUserInput(message, choices) {
+    let userInput = readlineSync.question(`${message}`).toLowerCase();
+    return checkUserInput(userInput, choices) ? userInput : getUserInput(message, choices, type);
 }
 
-function checkUserAnswer(userAnswer, choices) {
-    if (userAnswer && choices.includes(userAnswer)) {
+function checkUserInput(userInput, choices) {
+    if (userInput && choices.includes(userInput)) {
         return true;
     } else {
-        console.log('ERROR: Your answer must match one of the choices');
+        console.log('ERROR: Your input must match one of the choices');
+        return false;
+    }
+}
+
+function getUserAnswer(question, choices, correctAnswer) {
+    console.log(`${question}`);
+    console.log(`${choices}`);
+    const userAnswer = Number(readlineSync.question('Enter the number that matches the answer 0-3: '));
+    if (checkUserAnswer(userAnswer)) {
+        if (choices[userAnswer] === correctAnswer) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        getUserAnswer(question, choices, correctAnswer);
+    }
+}
+
+
+function checkUserAnswer(userAnswer) {
+    const allowedAnswers = [0, 1, 2, 3];
+    if (allowedAnswers.includes(userAnswer)) {
+        return true;
+    } else {
         return false;
     }
 }
 
 module.exports = {
+    getUserInput,
     getUserAnswer
 }
