@@ -1,55 +1,54 @@
-{
-    "geographyQuestions" : [
-        {
-            "question" : "What is the tallest mountain in europe?",
-            "options" : ["Monte Rosa", "Mount ELBRUS", "Mont Blanc", "Ben Nevis"],
-            "correct answer" : "Mount Elbrus"
-        },
-        {
-            "question" : "What is the highest population city in the world?",
-            "options" : ["Beijing", "New York", "Tokyo", "Delhi"],
-            "correct answer" : "Tokyo" 
-        },
-        {
-            "question" : "What is the biggest lake in the world?",
-            "options" : ["Caspian Sea", "Victoria", "Michigan", "Huron"],
-            "correct answer" : "Caspian Sea"
-        },
-        {
-            "question" : "What is the capital of Switzerland?",
-            "options" : ["Bern", "Lucerne", "Airlo", "Zurich"],
-            "correct answer" : "Zurich"
-        },
-        {
-            "question" : "What country in the balkans has the highest population?",
-            "options" : ["Serbia", "Croatia", "Slovenia", "Romania"],
-            "correct answer" : "Romania"
-        },
-        {
-            "question" : "What is the largest country in the world?",
-            "options" : ["Russia", "Canada", "United States", "China"],
-            "correct answer" : "Russia"
-        },
-        {
-            "question" : "What is the largest desert in the world?",
-            "options" : ["Sahara", "Gobi", "Arabian", "Antartic"],
-            "correct answer" : "Antartic"
-        },
-        {
-            "question" : "What country has the highest oil reserves?",
-            "options" : ["Saudi Arabia", "Iran", "Iraq", "Venezuela"],
-            "correct answer" : "Venezuela"
-        },
-        {
-            "question" : "What is the largest forest in the world ",
-            "options" : ["Primorye", "Valdivian", "Taiga", "Amazon"],
-            "correct answer" : "Amazon"
-        },
-        {
-            "question" : "In which country was the highest temperature on earth recorded?",
-            "options" : ["Italy", "Iran", "Australia", "United States"],
-            "correct answer" : "United States"
-        }
-    ]
-}
+[
+    {
+        "question" : "What is the tallest mountain in europe?",
+        "options" : ["Monte Rosa", "Mount ELBRUS", "Mont Blanc", "Ben Nevis"],
+        "correct_answer" : "Mount Elbrus"
+    },
+    {
+        "question" : "What is the highest population city in the world?",
+        "options" : ["Beijing", "New York", "Tokyo", "Delhi"],
+        "correct_answer" : "Tokyo" 
+    },
+    {
+        "question" : "What is the biggest lake in the world?",
+        "options" : ["Caspian Sea", "Victoria", "Michigan", "Huron"],
+        "correct_answer" : "Caspian Sea"
+    },
+    {
+        "question" : "What is the capital of Switzerland?",
+        "options" : ["Bern", "Lucerne", "Airlo", "Zurich"],
+        "correct_answer" : "Zurich"
+    },
+    {
+        "question" : "What country in the balkans has the highest population?",
+        "options" : ["Serbia", "Croatia", "Slovenia", "Romania"],
+        "correct_answer" : "Romania"
+    },
+    {
+        "question" : "What is the largest country in the world?",
+        "options" : ["Russia", "Canada", "United States", "China"],
+        "correct_answer" : "Russia"
+    },
+    {
+        "question" : "What is the largest desert in the world?",
+        "options" : ["Sahara", "Gobi", "Arabian", "Antartic"],
+        "correct_answer" : "Antartic"
+    },
+    {
+        "question" : "What country has the highest oil reserves?",
+        "options" : ["Saudi Arabia", "Iran", "Iraq", "Venezuela"],
+        "correct_answer" : "Venezuela"
+    },
+    {
+        "question" : "What is the largest forest in the world ",
+        "options" : ["Primorye", "Valdivian", "Taiga", "Amazon"],
+        "correct_answer" : "Amazon"
+    },
+    {
+        "question" : "In which country was the highest temperature on earth recorded?",
+        "options" : ["Italy", "Iran", "Australia", "United States"],
+        "correct_answer" : "United States"
+    }
+]
+
 
